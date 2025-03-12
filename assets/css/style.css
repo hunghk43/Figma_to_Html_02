@@ -26,11 +26,13 @@ a {
 .header.fixed {
   z-index: 1;
   position: sticky;
+  top: 0;
   top: -44px;
 }
 
 .header .body {
   padding: 52px 0 8px;
+
   display: flex;
   align-items: center;
 }
@@ -46,6 +48,7 @@ a {
 .nav a {
   color: #2f3a3b;
   padding: 8px 19.5px;
+  /* background-color: red; */
 }
 
 .action .action-link:hover,
@@ -78,4 +81,150 @@ a {
   background: #1ebfc1;
   color: white;
   transition: 0.3s linear;
+}
+/* ==============================HERO================================ */
+.hero {
+  padding: 42px 0 8px;
+}
+.hero .body {
+  display: flex;
+  justify-content: space-between;
+}
+.body .hero-content .heade-title {
+  margin-top: 93px;
+  color: #767e7e;
+
+  font-size: 1.4rem;
+}
+.body .hero-content .title {
+  margin-top: 18px;
+  width: 458px;
+  color: #0d1111;
+
+  font-size: 6.2rem;
+
+  font-weight: 700;
+  line-height: 1.17;
+}
+.body .hero-content .desc {
+  margin-top: 46px;
+  width: 374px;
+  color: #9da6a5;
+
+  font-size: 1.8rem;
+
+  line-height: 1.78;
+}
+.body .hero-content span {
+  width: 374px;
+  color: #9da6a5;
+
+  font-size: 1.8rem;
+
+  line-height: 1.78;
+}
+.hero .hero-button {
+  display: flex;
+  align-items: center;
+  /* margin-top: 52px; */
+}
+.hero .hero-button .hero-btn {
+  display: inline-block;
+  padding: 0 41px;
+  max-width: 186px;
+  color: #fff;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  background: #1ebfc1;
+  border-radius: 14px;
+  line-height: 65px;
+}
+.hero .hero-button img {
+  margin-left: 9px;
+  margin-top: 40px;
+}
+/* item bên  phải */
+.media-block {
+  position: relative;
+  width: 50%;
+}
+
+.media-course {
+  position: relative;
+  position: absolute;
+  top: 149px;
+  right: 465px;
+  display: flex;
+  align-items: center;
+  width: 157px;
+  height: 75px;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.media-course .course-icon {
+  padding: 17px 8px 18px 25px;
+}
+.media-course .detail {
+  display: inline-block;
+  margin-left: 8px;
+  width: 55px;
+  color: #0d1111;
+
+  font-size: 1rem;
+  line-height: 20px;
+  font-weight: 500;
+}
+.media-course::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  margin: 45px 100px 26px 29px;
+  width: 28px;
+  height: 4px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+.media-schedules {
+  position: absolute;
+  top: 453px;
+  left: -65px;
+  width: 124px;
+  height: 132px;
+
+  border-radius: 24px;
+  background: red;
+  box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.media-schedules .detail {
+  display: inline-block;
+  margin: 16px 35px 0;
+  color: #0d1111;
+
+  font-size: 1rem;
+
+  font-weight: 500;
+  line-height: normal;
+}
+.media-block .schedules-icon {
+  margin: 16px 25px 0;
+  display: block;
+  width: 74px;
+  height: 6px;
+  border-radius: 3px;
+  background: #edf1f5;
+}
+.hero .media-schedules .icon-2 {
+  margin-top: 12px;
+}
+
+.hero .media-schedules .icon-3 {
+  margin-top: 10px;
+}
+.hero .media-schedules .icon-4 {
+  margin: 16px 49px auto;
+  text-align: center;
+  width: 26px;
+  height: 6px;
 }
