@@ -189,12 +189,12 @@ a {
 .media-schedules {
   position: absolute;
   top: 453px;
-  left: -65px;
+  right: 517px;
   width: 124px;
   height: 132px;
 
   border-radius: 24px;
-  background: red;
+  background: #fff;
   box-shadow: 0px 10px 80px 0px rgba(0, 0, 0, 0.05);
 }
 .media-schedules .detail {
@@ -227,4 +227,54 @@ a {
   text-align: center;
   width: 26px;
   height: 6px;
+}
+/* avatar block */
+.hero .media-block .avatar-block {
+  position: absolute;
+  top: 500px;
+  right: 45px;
+  width: 207px;
+  height: 90px;
+  border-radius: 24px;
+  background: #fefefd;
+  box-shadow: 0px 12px 80px 0px rgba(0, 0, 0, 0.05);
+}
+.hero .media-block .avatar-block .ava-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero .media-block .avatar-block .ava-list .ava {
+  margin-top: 8px;
+  width: 33px;
+  height: 33px;
+  margin-left: -7px;
+  border-radius: 50%;
+}
+.hero .media-block .avatar-block .ava-list .ava:nth-child(1) {
+  margin-left: 0;
+}
+.hero .media-block .avatar-block .detail {
+  display: inline-block;
+  color: #0d1111;
+  margin: 17px 35px 0;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.avar-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1ebfc1;
+}
+.avar-more span {
+  color: #fff;
+  text-align: center;
+
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
