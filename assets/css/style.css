@@ -475,3 +475,40 @@ a {
   background-color: #1ebfc1;
   border-radius: 50%;
 }
+/* =====================member===================== */
+.member .main-content .body {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 265px;
+  /* margin-top: 265px;
+  margin-left: 154px; */
+  width: 73.6%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  /* background-color: red; */
+}
+.member .member-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.member .member-item .title {
+  color: #0d1111;
+  text-align: center;
+
+  font-size: 6.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.member .member-item .desc {
+  margin-top: 11px;
+  color: #767e7e;
+  text-align: center;
+
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
