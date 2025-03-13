@@ -619,3 +619,52 @@ a {
   top: 374px;
   left: 1060px;
 }
+/* ======================admit============================ */
+.admit {
+  margin-top: 130px;
+  background: #def6f5;
+  height: 272px;
+}
+.admit .content {
+  display: flex;
+}
+.admit .content .cta {
+  margin-top: 76px;
+}
+.admit .content .cta .title {
+  width: 420px;
+  color: #070707;
+  font-size: 4.2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.admit .content .cta .desc {
+  margin-top: 18px;
+  width: 397px;
+  color: #767e7e;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.admit .content .btn {
+  width: 186px;
+  height: 68px;
+  flex-shrink: 0;
+  border-radius: 14px;
+  background: #2ac9bf;
+  margin-left: 410px;
+  margin-top: 96px;
+  border: none;
+}
+.admit .content .btn span {
+  color: #fff;
+  text-align: center;
+
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+/* ===============footer======================= */
